@@ -1,0 +1,21 @@
+{
+  "name": "school-management",
+  "version": "1.0.0",
+  "description": "gestion d'une ecole",
+  "main": "index.js",
+  "scripts": {
+    "test": "l'application tourne correctement .. voilaaa ! ",
+    "start": "nodemon index.js"
+  },
+  "author": "rabiaa",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

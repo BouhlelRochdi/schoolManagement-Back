@@ -16,5 +16,6 @@ router.get('/admin/:id', async (req, res) => {
 // Create simple admin without verification
 router.post('/admin',  async (req, res) => {
 //    ecrire votre code 
+console.log('we are in function post')
 });
 module.exports = router;

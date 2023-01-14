@@ -5,8 +5,8 @@ const schema = mongoose.Schema;
 const enseignantSchema = new schema({
     name: String,
     description: String,
-    // company: { type: Schema.Types.ObjectId, ref: 'company' },
-    // tags: [{ type: Schema.Types.ObjectId, ref: 'tags' }]
+    admin: { type: Schema.Types.ObjectId, ref: 'admin' },
+    etudiants: [{ type: Schema.Types.ObjectId, ref: 'etudiants' }]
 },
 {
     timestamps: true,
